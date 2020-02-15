@@ -1,0 +1,14 @@
+
+.content-page ul li p{
+	text-align: center;
+}
+.content-page ul li p::after{
+	height: 65%;
+	top: 20%;
+}
+article .container{
+	display: none;
+}
+#link-start{
+	background-color: #231F20;
+}

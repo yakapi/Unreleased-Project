@@ -1,0 +1,69 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.cadre-image{
+		width: 50%;
+		max-width: 50%;
+		height: auto;
+		max-height: auto;
+		margin: auto;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	header h1{
+		text-align: left;
+	}
+	header .menu, header nav, header ul, header li, header a{
+		height: 100%;
+	}
+	header ul {
+		margin-right: 10px;
+	}
+	header li a{
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		padding: 0px 120px;
+	}
+	header li a:hover{
+		background-color: #7CBAE9;
+	}
+	header li a i{
+		padding-bottom: 10px;
+		font-size: 1.5em;
+	}
+	header .col-lg-12{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+		header h1 svg{
+			width: 30%;
+			max-width: 30%;
+		}
+}
+
+
+/* Ultimate large devices (large desktops, 1900px and up) */
+@media (min-width: 1900px) {
+	header .container-fluid{
+		width: 80%;
+		max-width: 80%;
+	}
+	.cadre-image{
+		width: 90%;
+		max-width: 90%;
+	}
+}

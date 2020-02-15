@@ -1,0 +1,11 @@
+
+.content-page ul li p{
+	text-align: center;
+}
+.content-page ul li p::after{
+	height: 65%;
+	top: 20%;
+}
+#link-collab{
+	background-color: #231F20;
+}
